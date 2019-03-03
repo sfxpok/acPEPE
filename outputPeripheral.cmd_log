@@ -1,0 +1,1 @@
+vhdtdtfi -prj acPEPE -o /home/r/git/acPEPE/outputPeripheral.vhi -module outputPeripheral -template /media/sda6/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work outputPeripheral.vhd 

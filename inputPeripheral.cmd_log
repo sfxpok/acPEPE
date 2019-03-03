@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/r/git/acPEPE/inputPeripheral.xst" -ofn "/home/r/git/acPEPE/inputPeripheral.syr" 
