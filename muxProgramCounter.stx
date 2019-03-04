@@ -15,7 +15,7 @@ Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.05 secs
  
 --> 
-Reading design: inputPeripheral.prj
+Reading design: muxProgramCounter.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -42,13 +42,13 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/r/git/acPEPE/inputPeripheral.vhd" into library work
-Parsing entity <inputPeripheral>.
-Parsing architecture <Behavioral> of entity <inputperipheral>.
+Parsing VHDL file "/home/r/git/acPEPE/muxProgramCounter.vhd" into library work
+Parsing entity <muxProgramCounter>.
+Parsing architecture <Behavioral> of entity <muxprogramcounter>.
 
 
-Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 3.04 secs
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.57 secs
  
 --> 
 

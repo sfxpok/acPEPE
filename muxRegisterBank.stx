@@ -15,7 +15,7 @@ Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.05 secs
  
 --> 
-Reading design: inputPeripheral.prj
+Reading design: muxRegisterBank.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -42,18 +42,18 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/r/git/acPEPE/inputPeripheral.vhd" into library work
-Parsing entity <inputPeripheral>.
-Parsing architecture <Behavioral> of entity <inputperipheral>.
+Parsing VHDL file "/home/r/git/acPEPE/muxRegisterBank.vhd" into library work
+Parsing entity <muxRegisterBank>.
+Parsing architecture <Behavioral> of entity <muxregisterbank>.
 
 
-Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 3.04 secs
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.69 secs
  
 --> 
 
 
-Total memory usage is 289848 kilobytes
+Total memory usage is 289856 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

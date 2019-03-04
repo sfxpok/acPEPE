@@ -5,17 +5,17 @@ Parameter TMPDIR set to /home/r/git/acPEPE/xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> 
 Parameter xsthdpdir set to /home/r/git/acPEPE/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> 
-Reading design: inputPeripheral.prj
+Reading design: gateNOT.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -42,18 +42,18 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/r/git/acPEPE/inputPeripheral.vhd" into library work
-Parsing entity <inputPeripheral>.
-Parsing architecture <Behavioral> of entity <inputperipheral>.
+Parsing VHDL file "/home/r/git/acPEPE/gateNOT.vhd" into library work
+Parsing entity <gateNOT>.
+Parsing architecture <Behavioral> of entity <gatenot>.
 
 
 Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 3.04 secs
+Total CPU time to Xst completion: 2.69 secs
  
 --> 
 
 
-Total memory usage is 289848 kilobytes
+Total memory usage is 289852 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

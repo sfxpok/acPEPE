@@ -25,10 +25,36 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ALU.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="ALU.xst"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="CPU.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="CPU.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="CPU.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="CPU.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CPU.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="CPU.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="CPU.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="CPU.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CPU_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CPU_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CPU_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RAM.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="RAM.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="RAM.xst"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparisonMUX.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="comparisonMUX.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="comparisonMUX.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparisonRegister.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="comparisonRegister.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="comparisonRegister.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decodeROM.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="decodeROM.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="decodeROM.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="gateNOR.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="gateNOR.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="gateNOR.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="gateNOT.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="gateNOT.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="gateNOT.xst"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="inputPeripheral.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="inputPeripheral.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="inputPeripheral.ngc"/>
@@ -39,10 +65,25 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="inputPeripheral.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="inputPeripheral_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="inputPeripheral_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="instructionMemory.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="instructionMemory.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="instructionMemory.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="muxProgramCounter.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="muxProgramCounter.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="muxProgramCounter.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="muxRegisterBank.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="muxRegisterBank.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="muxRegisterBank.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="outputPeripheral.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="outputPeripheral.stx"/>
     <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="outputPeripheral.vhi"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="outputPeripheral.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="programCounter.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="programCounter.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="programCounter.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="registerBank.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="registerBank.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="registerBank.xst"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
@@ -50,12 +91,13 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1551638595" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1551638594">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1551638595" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-339316346353750666" xil_pn:start_ts="1551638595">
+    <transform xil_pn:end_ts="1551727637" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7610900377255480266" xil_pn:start_ts="1551727637">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1551638595" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6398245875183534823" xil_pn:start_ts="1551638595">
+    <transform xil_pn:end_ts="1551727637" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4893086447696656315" xil_pn:start_ts="1551727637">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -63,7 +105,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1551638595" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5749453861113663032" xil_pn:start_ts="1551638595">
+    <transform xil_pn:end_ts="1551727637" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-8230725016091531124" xil_pn:start_ts="1551727637">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -71,28 +113,26 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1551638595" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1816869757552470257" xil_pn:start_ts="1551638595">
+    <transform xil_pn:end_ts="1551727637" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-6780303916581369403" xil_pn:start_ts="1551727637">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1551638607" xil_pn:in_ck="-4360764238724096052" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-6653620362073169767" xil_pn:start_ts="1551638595">
+    <transform xil_pn:end_ts="1551728948" xil_pn:in_ck="-1369886183849899548" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="5683098781905238381" xil_pn:start_ts="1551728938">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="CPU.lso"/>
+      <outfile xil_pn:name="CPU.ngc"/>
+      <outfile xil_pn:name="CPU.ngr"/>
+      <outfile xil_pn:name="CPU.prj"/>
+      <outfile xil_pn:name="CPU.stx"/>
+      <outfile xil_pn:name="CPU.syr"/>
+      <outfile xil_pn:name="CPU.xst"/>
+      <outfile xil_pn:name="CPU_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="inputPeripheral.lso"/>
-      <outfile xil_pn:name="inputPeripheral.ngc"/>
       <outfile xil_pn:name="inputPeripheral.ngr"/>
-      <outfile xil_pn:name="inputPeripheral.prj"/>
-      <outfile xil_pn:name="inputPeripheral.stx"/>
-      <outfile xil_pn:name="inputPeripheral.syr"/>
-      <outfile xil_pn:name="inputPeripheral.xst"/>
-      <outfile xil_pn:name="inputPeripheral_xst.xrpt"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>

@@ -4,18 +4,18 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 Parameter TMPDIR set to /home/r/git/acPEPE/xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Parameter xsthdpdir set to /home/r/git/acPEPE/xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
-Reading design: inputPeripheral.prj
+Reading design: gateNOR.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -42,18 +42,18 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/r/git/acPEPE/inputPeripheral.vhd" into library work
-Parsing entity <inputPeripheral>.
-Parsing architecture <Behavioral> of entity <inputperipheral>.
+Parsing VHDL file "/home/r/git/acPEPE/gateNOR.vhd" into library work
+Parsing entity <gateNOR>.
+Parsing architecture <Behavioral> of entity <gatenor>.
 
 
 Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 3.04 secs
+Total CPU time to Xst completion: 2.71 secs
  
 --> 
 
 
-Total memory usage is 289848 kilobytes
+Total memory usage is 289860 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

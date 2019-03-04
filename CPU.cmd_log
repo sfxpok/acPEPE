@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/home/r/git/acPEPE/CPU.xst" -ofn "/home/r/git/acPEPE/CPU.syr" 
+xst -intstyle ise -ifn "/home/r/git/acPEPE/CPU.xst" -ofn "/home/r/git/acPEPE/CPU.syr" 
+xst -intstyle ise -ifn "/home/r/git/acPEPE/CPU.xst" -ofn "/home/r/git/acPEPE/CPU.syr" 
+xst -intstyle ise -ifn "/home/r/git/acPEPE/CPU.xst" -ofn "/home/r/git/acPEPE/CPU.syr" 
