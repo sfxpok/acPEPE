@@ -39,8 +39,8 @@ entity CPU is
            opcode : in STD_LOGIC_VECTOR (4 downto 0);
            Registo_1 : in STD_LOGIC_VECTOR (2 downto 0);
            Registo_2 : in STD_LOGIC_VECTOR (2 downto 0);
-           ConstanteInput : in STD_LOGIC_VECTOR (7 downto 0);
-           ConstanteOutput : out STD_LOGIC_VECTOR (7 downto 0);
+           Constante : in STD_LOGIC_VECTOR (7 downto 0);
+           Operando1Output : out STD_LOGIC_VECTOR (7 downto 0);
            WR : out STD_LOGIC;
            Dados_M : in STD_LOGIC_VECTOR (7 downto 0);
            clk : in STD_LOGIC);
@@ -157,7 +157,7 @@ begin
     A1: inputPeripheral port map (PIN, ESCR_PNOT, Dados_IN);
     A2: outputPeripheral port map (POUT, ESCR_P, clk, Operando1);
 
-    B1: muxRegisterBank port map (ConstanteInput, Dados_M, Dados_IN, Resultado, Dados_R, SEL_R);
+    B1: muxRegisterBank port map (Constante, Dados_M, Dados_IN, Resultado, Dados_R, SEL_R);
     B2: registerBank port map (ESCR_R, Dados_R, Registo_1, Registo_2, Operando1, Operando2, clk);
 
     C1: ALU port map (Operando1, Operando2, SEL_ALU, Resultado, COMP_FLAG);
@@ -165,7 +165,7 @@ begin
     D1: comparisonRegister port map (R_FLAG, COMP_FLAG, clk, ESCR_F);
     D2: comparisonMUX port map (R_FLAG, S_FLAG, SEL_F);
 
-    E1: programCounter port map (clk, Endereco, ESCR_PC, ConstanteInput, Reset);
+    E1: programCounter port map (clk, Endereco, ESCR_PC, Constante, Reset);
     E2: muxProgramCounter port map (ESCR_PC, SEL_PC, S_FLAG, Operando1NOR, Operando1(7));
 
     F1: decodeROM port map (opcode, SEL_PC, SEL_F, ESCR_F, SEL_ALU, ESCR_R, SEL_R, ESCR_P, WR, Registo_1, Registo_2);
@@ -173,7 +173,7 @@ begin
     G1: gateNOT port map (ESCR_P, ESCR_PNOT);
     G2: gateNOR port map (Operando1, Operando1NOR);
 
-    ConstanteOutput <= ConstanteInput;
+    Operando1Output <= Operando1;
 
 end Struct;
 

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-03-04T19:41:27</DateModified>
+  <DateModified>2019-03-05T16:55:51</DateModified>
   <ModuleName>CPU</ModuleName>
   <SummaryTimeStamp>2019-03-04T19:27:23</SummaryTimeStamp>
   <SavedFilePath>/home/r/git/acPEPE/iseconfig/CPU.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/r/git/acPEPE</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>/home/r/git/acPEPE/</ImplementationReportsDirectory>
   <DateInitialized>2019-03-04T19:23:59</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

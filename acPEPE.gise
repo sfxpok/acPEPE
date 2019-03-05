@@ -68,6 +68,15 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="instructionMemory.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="instructionMemory.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="instructionMemory.xst"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="motherBoard.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="motherBoard.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="motherBoard.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="motherBoard.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="motherBoard.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="motherBoard.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="motherBoard.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="motherBoard.xst"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="motherBoard_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="muxProgramCounter.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="muxProgramCounter.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="muxProgramCounter.xst"/>
@@ -93,11 +102,11 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1551727637" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7610900377255480266" xil_pn:start_ts="1551727637">
+    <transform xil_pn:end_ts="1551807279" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2222796459702243047" xil_pn:start_ts="1551807279">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1551727637" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4893086447696656315" xil_pn:start_ts="1551727637">
+    <transform xil_pn:end_ts="1551807279" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-9158914988497387158" xil_pn:start_ts="1551807279">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -105,7 +114,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1551727637" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-8230725016091531124" xil_pn:start_ts="1551727637">
+    <transform xil_pn:end_ts="1551807279" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1033529160105701339" xil_pn:start_ts="1551807279">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -113,26 +122,25 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1551727637" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-6780303916581369403" xil_pn:start_ts="1551727637">
+    <transform xil_pn:end_ts="1551807279" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="8042133558886186356" xil_pn:start_ts="1551807279">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1551728948" xil_pn:in_ck="-1369886183849899548" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="5683098781905238381" xil_pn:start_ts="1551728938">
+    <transform xil_pn:end_ts="1551808126" xil_pn:in_ck="-1369886183849899548" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="7362832903716253212" xil_pn:start_ts="1551808118">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="CPU.lso"/>
-      <outfile xil_pn:name="CPU.ngc"/>
       <outfile xil_pn:name="CPU.ngr"/>
-      <outfile xil_pn:name="CPU.prj"/>
-      <outfile xil_pn:name="CPU.stx"/>
-      <outfile xil_pn:name="CPU.syr"/>
-      <outfile xil_pn:name="CPU.xst"/>
-      <outfile xil_pn:name="CPU_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="inputPeripheral.ngr"/>
+      <outfile xil_pn:name="motherBoard.lso"/>
+      <outfile xil_pn:name="motherBoard.ngc"/>
+      <outfile xil_pn:name="motherBoard.ngr"/>
+      <outfile xil_pn:name="motherBoard.prj"/>
+      <outfile xil_pn:name="motherBoard.stx"/>
+      <outfile xil_pn:name="motherBoard.syr"/>
+      <outfile xil_pn:name="motherBoard.xst"/>
+      <outfile xil_pn:name="motherBoard_xst.xrpt"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>

@@ -42,7 +42,7 @@ architecture Behavioral of RAM is
 
 begin
 
-	process(Operando1, Constante, WR, clk)
+	process(clk)
 	type memory is array (0 to 255) of STD_LOGIC_VECTOR(7 downto 0);
 	variable memoryData : memory;
 	
