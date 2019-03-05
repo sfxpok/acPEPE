@@ -34,6 +34,8 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="CPU.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="CPU.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="CPU_envsettings.html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CPU_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CPU_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="CPU_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CPU_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RAM.prj"/>
@@ -49,6 +51,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decodeROM.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="decodeROM.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="decodeROM.xst"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="gateNOR.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="gateNOR.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="gateNOR.xst"/>
@@ -63,11 +66,16 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="inputPeripheral.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="inputPeripheral.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="inputPeripheral.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="inputPeripheral_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="inputPeripheral_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="inputPeripheral_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="inputPeripheral_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="instructionMemory.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="instructionMemory.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="instructionMemory.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="motherBoard.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="motherBoard.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="motherBoard.ngc"/>
@@ -76,6 +84,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="motherBoard.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="motherBoard.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="motherBoard.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="motherBoard_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="motherBoard_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="muxProgramCounter.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="muxProgramCounter.stx"/>
@@ -93,11 +102,134 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="registerBank.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="registerBank.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="registerBank.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_ALU_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_CPU_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_RAM_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_comparisonMUX_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_comparisonRegister_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_decodeROM_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_inputPeripheral_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_inputPeripheral_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_instructionMemory_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_instructionMemory_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_instructionMemory_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_motherBoard_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_motherBoard_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_muxProgramCounter_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_muxRegisterBank_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_muxRegisterBank_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_outputPeripheral_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_programCounter_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_registerBank_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1551808275" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1551808275">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1551816773" xil_pn:in_ck="2808744182289038572" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1551816773">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="CPU.vhd"/>
+      <outfile xil_pn:name="RAM.vhd"/>
+      <outfile xil_pn:name="comparisonMUX.vhd"/>
+      <outfile xil_pn:name="comparisonRegister.vhd"/>
+      <outfile xil_pn:name="decodeROM.vhd"/>
+      <outfile xil_pn:name="gateNOR.vhd"/>
+      <outfile xil_pn:name="gateNOT.vhd"/>
+      <outfile xil_pn:name="inputPeripheral.vhd"/>
+      <outfile xil_pn:name="instructionMemory.vhd"/>
+      <outfile xil_pn:name="motherBoard.vhd"/>
+      <outfile xil_pn:name="muxProgramCounter.vhd"/>
+      <outfile xil_pn:name="muxRegisterBank.vhd"/>
+      <outfile xil_pn:name="outputPeripheral.vhd"/>
+      <outfile xil_pn:name="programCounter.vhd"/>
+      <outfile xil_pn:name="registerBank.vhd"/>
+      <outfile xil_pn:name="tb_ALU.vhd"/>
+      <outfile xil_pn:name="tb_CPU.vhd"/>
+      <outfile xil_pn:name="tb_RAM.vhd"/>
+      <outfile xil_pn:name="tb_comparisonMUX.vhd"/>
+      <outfile xil_pn:name="tb_comparisonRegister.vhd"/>
+      <outfile xil_pn:name="tb_decodeROM.vhd"/>
+      <outfile xil_pn:name="tb_inputPeripheral.vhd"/>
+      <outfile xil_pn:name="tb_instructionMemory.vhd"/>
+      <outfile xil_pn:name="tb_motherBoard.vhd"/>
+      <outfile xil_pn:name="tb_muxProgramCounter.vhd"/>
+      <outfile xil_pn:name="tb_muxRegisterBank.vhd"/>
+      <outfile xil_pn:name="tb_outputPeripheral.vhd"/>
+      <outfile xil_pn:name="tb_programCounter.vhd"/>
+      <outfile xil_pn:name="tb_registerBank.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1551816334" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4032012142140676255" xil_pn:start_ts="1551816334">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1551816334" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6110870531427131491" xil_pn:start_ts="1551816334">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1551808275" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-9158914988497387158" xil_pn:start_ts="1551808275">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1551816773" xil_pn:in_ck="2808744182289038572" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1551816773">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="CPU.vhd"/>
+      <outfile xil_pn:name="RAM.vhd"/>
+      <outfile xil_pn:name="comparisonMUX.vhd"/>
+      <outfile xil_pn:name="comparisonRegister.vhd"/>
+      <outfile xil_pn:name="decodeROM.vhd"/>
+      <outfile xil_pn:name="gateNOR.vhd"/>
+      <outfile xil_pn:name="gateNOT.vhd"/>
+      <outfile xil_pn:name="inputPeripheral.vhd"/>
+      <outfile xil_pn:name="instructionMemory.vhd"/>
+      <outfile xil_pn:name="motherBoard.vhd"/>
+      <outfile xil_pn:name="muxProgramCounter.vhd"/>
+      <outfile xil_pn:name="muxRegisterBank.vhd"/>
+      <outfile xil_pn:name="outputPeripheral.vhd"/>
+      <outfile xil_pn:name="programCounter.vhd"/>
+      <outfile xil_pn:name="registerBank.vhd"/>
+      <outfile xil_pn:name="tb_ALU.vhd"/>
+      <outfile xil_pn:name="tb_CPU.vhd"/>
+      <outfile xil_pn:name="tb_RAM.vhd"/>
+      <outfile xil_pn:name="tb_comparisonMUX.vhd"/>
+      <outfile xil_pn:name="tb_comparisonRegister.vhd"/>
+      <outfile xil_pn:name="tb_decodeROM.vhd"/>
+      <outfile xil_pn:name="tb_inputPeripheral.vhd"/>
+      <outfile xil_pn:name="tb_instructionMemory.vhd"/>
+      <outfile xil_pn:name="tb_motherBoard.vhd"/>
+      <outfile xil_pn:name="tb_muxProgramCounter.vhd"/>
+      <outfile xil_pn:name="tb_muxRegisterBank.vhd"/>
+      <outfile xil_pn:name="tb_outputPeripheral.vhd"/>
+      <outfile xil_pn:name="tb_programCounter.vhd"/>
+      <outfile xil_pn:name="tb_registerBank.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1551816775" xil_pn:in_ck="2808744182289038572" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3229252576529229947" xil_pn:start_ts="1551816773">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_instructionMemory_beh.prj"/>
+      <outfile xil_pn:name="tb_instructionMemory_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1551816776" xil_pn:in_ck="3881905265097885058" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6097808100424109682" xil_pn:start_ts="1551816775">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_instructionMemory_isim_beh.wdb"/>
+    </transform>
     <transform xil_pn:end_ts="1551638595" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1551638594">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -130,6 +262,8 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="CPU.ngr"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="inputPeripheral.ngr"/>

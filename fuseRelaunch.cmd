@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/r/git/acPEPE/tb_instructionMemory_isim_beh.exe" -prj "/home/r/git/acPEPE/tb_instructionMemory_beh.prj" "work.tb_instructionMemory" 
