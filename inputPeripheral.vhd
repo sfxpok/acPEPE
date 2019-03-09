@@ -13,7 +13,7 @@ begin
 
 	process (ESCR_P, PIN)
 		begin
-			if (ESCR_P = '0') then
+			if (ESCR_P = '1') then
 				Dados_IN <= PIN;
 			end if;
 		end process;

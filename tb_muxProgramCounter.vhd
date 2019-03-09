@@ -76,9 +76,11 @@ BEGIN
    stim_proc: process
    begin		
 
-		SEL_PC <= "000"; S_FLAG <= '1'; Operando1NOR <= '1'; Operando1MaiorPeso <= '1'; wait for 100ns;
-		SEL_PC <= "001"; S_FLAG <= '0'; Operando1NOR <= '1'; Operando1MaiorPeso <= '1'; wait for 100ns;
+		SEL_PC <= "000"; S_FLAG <= '1'; Operando1NOR <= '1'; Operando1MaiorPeso <= '0'; wait for 100ns;
+		SEL_PC <= "001"; S_FLAG <= '0'; Operando1NOR <= '0'; Operando1MaiorPeso <= '1'; wait for 100ns;
 		SEL_PC <= "010"; S_FLAG <= '0'; Operando1NOR <= '1'; Operando1MaiorPeso <= '1'; wait for 100ns;
+		SEL_PC <= "011"; S_FLAG <= '1'; Operando1NOR <= '0'; Operando1MaiorPeso <= '1'; wait for 100ns;
+		SEL_PC <= "100"; S_FLAG <= '0'; Operando1NOR <= '1'; Operando1MaiorPeso <= '0'; wait for 100ns;
 
       wait;
    end process;

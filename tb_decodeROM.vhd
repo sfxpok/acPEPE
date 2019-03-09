@@ -94,6 +94,7 @@ BEGIN
    stim_proc: process
    begin		
 
+		opcode <= "10011"; Registo_1 <= "XXX"; Registo_2 <= "XXX"; wait for 100ns;
 		opcode <= "00000"; Registo_1 <= "000"; Registo_2 <= "XXX"; wait for 100ns;
 		opcode <= "00001"; Registo_1 <= "001"; Registo_2 <= "XXX"; wait for 100ns;
 		opcode <= "00010"; Registo_1 <= "010"; Registo_2 <= "XXX"; wait for 100ns;
@@ -105,6 +106,7 @@ BEGIN
 		opcode <= "01000"; Registo_1 <= "011"; Registo_2 <= "011"; wait for 100ns;
 		opcode <= "01001"; Registo_1 <= "100"; Registo_2 <= "100"; wait for 100ns;
 		opcode <= "01010"; Registo_1 <= "101"; Registo_2 <= "101"; wait for 100ns;
+		opcode <= "10011"; Registo_1 <= "XXX"; Registo_2 <= "XXX"; wait for 100ns;
 		
       wait;
    end process;

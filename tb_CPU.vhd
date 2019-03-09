@@ -108,11 +108,17 @@ BEGIN
    stim_proc: process
    begin		
 
-      PIN <= "00000001"; Reset <= '0'; opcode <= "00100"; Registo_1 <= "001"; Registo_2 <= "XXX"; Constante <= "00000001"; Dados_M <= "00000111"; wait for clk_period*2;
-      PIN <= "00000001"; Reset <= '0'; opcode <= "00100"; Registo_1 <= "001"; Registo_2 <= "XXX"; Constante <= "00000001"; Dados_M <= "00000111"; wait for clk_period*2;
-      PIN <= "00000001"; Reset <= '0'; opcode <= "00011"; Registo_1 <= "001"; Registo_2 <= "XXX"; Constante <= "00000001"; Dados_M <= "00000111"; wait for clk_period*2;
-      PIN <= "00000001"; Reset <= '0'; opcode <= "00100"; Registo_1 <= "011"; Registo_2 <= "XXX"; Constante <= "00000001"; Dados_M <= "00000111"; wait for clk_period*2;
-
+      PIN <= "00000001"; Reset <= '0'; opcode <= "10011"; Registo_1 <= "XXX"; Registo_2 <= "XXX"; Constante <= "00000001"; Dados_M <= "00000111"; wait for clk_period*2;
+      PIN <= "00000001"; Reset <= '1'; opcode <= "00001"; Registo_1 <= "001"; Registo_2 <= "XXX"; Constante <= "00010110"; Dados_M <= "00000111"; wait for clk_period*2;
+      PIN <= "00000001"; Reset <= '0'; opcode <= "00001"; Registo_1 <= "011"; Registo_2 <= "XXX"; Constante <= "00000001"; Dados_M <= "00000111"; wait for clk_period*2;
+	  PIN <= "00000001"; Reset <= '1'; opcode <= "10011"; Registo_1 <= "XXX"; Registo_2 <= "XXX"; Constante <= "00010110"; Dados_M <= "00000111"; wait for clk_period*2;
+	  PIN <= "00000001"; Reset <= '0'; opcode <= "10011"; Registo_1 <= "XXX"; Registo_2 <= "XXX"; Constante <= "00000001"; Dados_M <= "00000111"; wait for clk_period*2;
+      PIN <= "00000001"; Reset <= '1'; opcode <= "10011"; Registo_1 <= "XXX"; Registo_2 <= "XXX"; Constante <= "00010110"; Dados_M <= "00000111"; wait for clk_period*2;
+      PIN <= "00000001"; Reset <= '0'; opcode <= "10011"; Registo_1 <= "XXX"; Registo_2 <= "XXX"; Constante <= "00010110"; Dados_M <= "00000111"; wait for clk_period*2;
+      PIN <= "00000001"; Reset <= '1'; opcode <= "10011"; Registo_1 <= "XXX"; Registo_2 <= "XXX"; Constante <= "00010110"; Dados_M <= "00000111"; wait for clk_period*2;
+      PIN <= "00000001"; Reset <= '0'; opcode <= "10011"; Registo_1 <= "XXX"; Registo_2 <= "XXX"; Constante <= "00010110"; Dados_M <= "00000111"; wait for clk_period*2;
+      PIN <= "00000001"; Reset <= '1'; opcode <= "10011"; Registo_1 <= "XXX"; Registo_2 <= "XXX"; Constante <= "00010110"; Dados_M <= "00000111"; wait for clk_period*2;
+	  
       wait;
    end process;
 

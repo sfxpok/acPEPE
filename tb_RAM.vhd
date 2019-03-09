@@ -88,8 +88,8 @@ BEGIN
    begin		
 
 		Operando1 <= "00010000"; Constante <= "00001111"; WR <= '1'; wait for clk_period*2;
-		Operando1 <= "00010001"; Constante <= "00001110"; WR <= '1'; wait for clk_period*2;
-		Operando1 <= "00010001"; Constante <= "00001110"; WR <= '0'; wait for clk_period*2;
+		Operando1 <= "00010110"; Constante <= "00001110"; WR <= '1'; wait for clk_period*2;
+		Operando1 <= "00010110"; Constante <= "00001110"; WR <= '0'; wait for clk_period*2;
 		Operando1 <= "00010000"; Constante <= "00001111"; WR <= '0'; wait for clk_period*2;
 		Operando1 <= "11110000"; Constante <= "01010101"; WR <= '1'; wait for clk_period*2;
 		Operando1 <= "11110000"; Constante <= "01010101"; WR <= '0'; wait for clk_period*2;

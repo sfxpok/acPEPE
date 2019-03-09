@@ -4,15 +4,15 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.07 secs
  
 --> 
 Reading design: motherBoard.prj
@@ -104,6 +104,7 @@ Slice Utilization Ratio Delta      : 5
 
 =========================================================================
 
+WARNING:UtilitiesC:240 - The message file "/home/r/git/acPEPE/_xmsgs/xst.xmsgs" is corrupt, therefore all message will be marked as new.
 
 =========================================================================
 *                          HDL Parsing                                  *
@@ -170,9 +171,10 @@ Elaborating entity <inputPeripheral> (architecture <Behavioral>) from library <w
 Elaborating entity <outputPeripheral> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <muxRegisterBank> (architecture <Behavioral>) from library <work>.
-INFO:HDLCompiler:679 - "/home/r/git/acPEPE/muxRegisterBank.vhd" Line 52. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/r/git/acPEPE/muxRegisterBank.vhd" Line 24. Case statement is complete. others clause is never selected
 
 Elaborating entity <registerBank> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "/home/r/git/acPEPE/registerBank.vhd" Line 28: escr_r should be on the sensitivity list of the process
 
 Elaborating entity <ALU> (architecture <Behavioral>) from library <work>.
 
@@ -191,8 +193,8 @@ Elaborating entity <gateNOT> (architecture <Behavioral>) from library <work>.
 Elaborating entity <gateNOR> (architecture <Behavioral>) from library <work>.
 
 Elaborating entity <RAM> (architecture <Behavioral>) from library <work>.
-WARNING:HDLCompiler:92 - "/home/r/git/acPEPE/RAM.vhd" Line 51: wr should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "/home/r/git/acPEPE/RAM.vhd" Line 52: constante should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/r/git/acPEPE/RAM.vhd" Line 23: wr should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "/home/r/git/acPEPE/RAM.vhd" Line 24: constante should be on the sensitivity list of the process
 
 Elaborating entity <instructionMemory> (architecture <Behavioral>) from library <work>.
 
@@ -235,7 +237,7 @@ Unit <outputPeripheral> synthesized.
 
 Synthesizing Unit <muxRegisterBank>.
     Related source file is "/home/r/git/acPEPE/muxRegisterBank.vhd".
-    Found 8-bit 4-to-1 multiplexer for signal <Dados_R> created at line 47.
+    Found 8-bit 4-to-1 multiplexer for signal <Dados_R> created at line 19.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <muxRegisterBank> synthesized.
@@ -248,8 +250,8 @@ Synthesizing Unit <registerBank>.
     Found 8-bit register for signal <R4>.
     Found 8-bit register for signal <R5>.
     Found 8-bit register for signal <R0>.
-    Found 8-bit 6-to-1 multiplexer for signal <Operando1> created at line 68.
-    Found 8-bit 6-to-1 multiplexer for signal <Operando2> created at line 78.
+    Found 8-bit 6-to-1 multiplexer for signal <Operando1> created at line 40.
+    Found 8-bit 6-to-1 multiplexer for signal <Operando2> created at line 50.
     Summary:
 	inferred  48 D-type flip-flop(s).
 	inferred   2 Multiplexer(s).
@@ -257,16 +259,16 @@ Unit <registerBank> synthesized.
 
 Synthesizing Unit <ALU>.
     Related source file is "/home/r/git/acPEPE/ALU.vhd".
-    Found 8-bit adder for signal <Operando1[7]_Operando2[7]_add_0_OUT> created at line 48.
-    Found 8-bit subtractor for signal <Operando1[7]_Operando2[7]_sub_2_OUT<7:0>> created at line 49.
-    Found 1-bit 8-to-1 multiplexer for signal <SEL_ALU[3]_X_19_o_Mux_20_o> created at line 47.
-    Found 1-bit 8-to-1 multiplexer for signal <SEL_ALU[3]_X_19_o_Mux_22_o> created at line 47.
-    Found 1-bit 8-to-1 multiplexer for signal <SEL_ALU[3]_X_19_o_Mux_24_o> created at line 47.
-    Found 1-bit 8-to-1 multiplexer for signal <SEL_ALU[3]_X_19_o_Mux_26_o> created at line 47.
-    Found 1-bit 8-to-1 multiplexer for signal <SEL_ALU[3]_X_19_o_Mux_28_o> created at line 47.
-    Found 1-bit 8-to-1 multiplexer for signal <SEL_ALU[3]_X_19_o_Mux_30_o> created at line 47.
-    Found 1-bit 8-to-1 multiplexer for signal <SEL_ALU[3]_X_19_o_Mux_32_o> created at line 47.
-    Found 1-bit 8-to-1 multiplexer for signal <SEL_ALU[3]_X_19_o_Mux_34_o> created at line 47.
+    Found 8-bit adder for signal <Operando1[7]_Operando2[7]_add_0_OUT> created at line 20.
+    Found 8-bit subtractor for signal <Operando1[7]_Operando2[7]_sub_2_OUT<7:0>> created at line 21.
+    Found 1-bit 8-to-1 multiplexer for signal <SEL_ALU[3]_X_19_o_Mux_20_o> created at line 19.
+    Found 1-bit 8-to-1 multiplexer for signal <SEL_ALU[3]_X_19_o_Mux_22_o> created at line 19.
+    Found 1-bit 8-to-1 multiplexer for signal <SEL_ALU[3]_X_19_o_Mux_24_o> created at line 19.
+    Found 1-bit 8-to-1 multiplexer for signal <SEL_ALU[3]_X_19_o_Mux_26_o> created at line 19.
+    Found 1-bit 8-to-1 multiplexer for signal <SEL_ALU[3]_X_19_o_Mux_28_o> created at line 19.
+    Found 1-bit 8-to-1 multiplexer for signal <SEL_ALU[3]_X_19_o_Mux_30_o> created at line 19.
+    Found 1-bit 8-to-1 multiplexer for signal <SEL_ALU[3]_X_19_o_Mux_32_o> created at line 19.
+    Found 1-bit 8-to-1 multiplexer for signal <SEL_ALU[3]_X_19_o_Mux_34_o> created at line 19.
 WARNING:Xst:737 - Found 1-bit latch for signal <Resultado<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <Resultado<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <Resultado<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -280,9 +282,9 @@ WARNING:Xst:737 - Found 1-bit latch for signal <varCOMP2>. Latches may be genera
 WARNING:Xst:737 - Found 1-bit latch for signal <varCOMP3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <varCOMP4>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <Resultado<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-    Found 8-bit comparator equal for signal <Operando1[7]_Operando2[7]_equal_9_o> created at line 58
-    Found 8-bit comparator greater for signal <Operando2[7]_Operando1[7]_LessThan_10_o> created at line 60
-    Found 8-bit comparator greater for signal <n0013> created at line 62
+    Found 8-bit comparator equal for signal <Operando1[7]_Operando2[7]_equal_9_o> created at line 30
+    Found 8-bit comparator greater for signal <Operando2[7]_Operando1[7]_LessThan_10_o> created at line 32
+    Found 8-bit comparator greater for signal <n0013> created at line 34
     Summary:
 	inferred   2 Adder/Subtractor(s).
 	inferred  13 Latch(s).
@@ -299,7 +301,7 @@ Unit <comparisonRegister> synthesized.
 
 Synthesizing Unit <comparisonMUX>.
     Related source file is "/home/r/git/acPEPE/comparisonMUX.vhd".
-    Found 1-bit 5-to-1 multiplexer for signal <S_FLAG> created at line 43.
+    Found 1-bit 5-to-1 multiplexer for signal <S_FLAG> created at line 15.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <comparisonMUX> synthesized.
@@ -308,7 +310,7 @@ Synthesizing Unit <programCounter>.
     Related source file is "/home/r/git/acPEPE/programCounter.vhd".
     Register <enderecoActual> equivalent to <Endereco> has been removed
     Found 8-bit register for signal <Endereco>.
-    Found 8-bit adder for signal <enderecoActual[7]_GND_36_o_add_0_OUT> created at line 51.
+    Found 8-bit adder for signal <enderecoActual[7]_GND_36_o_add_0_OUT> created at line 23.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred   8 D-type flip-flop(s).
@@ -572,8 +574,8 @@ Primitive and Black Box Usage:
 # FlipFlops/Latches                : 85
 #      FDE                         : 41
 #      FDR                         : 15
-#      LD                          : 13
-#      LD_1                        : 16
+#      LD                          : 21
+#      LD_1                        : 8
 # RAMS                             : 8
 #      RAM256X1S                   : 8
 # Clock Buffers                    : 1
@@ -712,14 +714,14 @@ Timing constraint: Default OFFSET IN BEFORE for Clock 'A1/ESCR_PNOT'
 Offset:              2.045ns (Levels of Logic = 1)
   Source:            PIN<7> (PAD)
   Destination:       A1/A1/Dados_IN_7 (LATCH)
-  Destination Clock: A1/ESCR_PNOT rising
+  Destination Clock: A1/ESCR_PNOT falling
 
   Data Path: PIN<7> to A1/A1/Dados_IN_7
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O             1   1.328   0.681  PIN_7_IBUF (PIN_7_IBUF)
-     LD_1:D                    0.036          A1/A1/Dados_IN_7
+     LD:D                      0.036          A1/A1/Dados_IN_7
     ----------------------------------------
     Total                      2.045ns (1.364ns logic, 0.681ns route)
                                        (66.7% logic, 33.3% route)
@@ -771,7 +773,7 @@ Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 A1/C1/_n0147<0>|         |    1.800|         |         |
 A1/ESCR_F      |         |    3.277|         |         |
-A1/ESCR_PNOT   |    1.695|         |         |         |
+A1/ESCR_PNOT   |         |    1.695|         |         |
 WR             |    1.867|         |         |         |
 clk            |    7.805|         |         |         |
 ---------------+---------+---------+---------+---------+
@@ -779,15 +781,15 @@ clk            |    7.805|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.24 secs
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.07 secs
  
 --> 
 
 
-Total memory usage is 380820 kilobytes
+Total memory usage is 380888 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   55 (   0 filtered)
+Number of warnings :   57 (   0 filtered)
 Number of infos    :    5 (   0 filtered)
 

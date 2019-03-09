@@ -89,6 +89,10 @@ BEGIN
 
 		ESCR_PC <= '1'; Constante <= "00001111"; Reset <= '0'; wait for clk_period*2;
 		ESCR_PC <= '1'; Constante <= "00001100"; Reset <= '1'; wait for clk_period*2;
+		ESCR_PC <= '0'; Constante <= "00001100"; Reset <= '0'; wait for clk_period*2;
+		ESCR_PC <= '1'; Constante <= "00010110"; Reset <= '1'; wait for clk_period*2;
+		ESCR_PC <= '0'; Constante <= "00010110"; Reset <= '1'; wait for clk_period*2;
+		ESCR_PC <= '1'; Constante <= "00010110"; Reset <= '0'; wait for clk_period*2;
 
 		
       wait;

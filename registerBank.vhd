@@ -14,7 +14,7 @@ end registerBank;
 architecture Behavioral of registerBank is
 
 begin
-	process (ESCR_R, Dados_R, Registo_1, Registo_2, clk)
+	process (Registo_1, Registo_2, clk)
 
 	variable R0 : STD_LOGIC_VECTOR (7 downto 0);
 	variable R1 : STD_LOGIC_VECTOR (7 downto 0);

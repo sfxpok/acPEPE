@@ -86,6 +86,8 @@ BEGIN
 
       ESCR_P <= '1'; Operando1 <= "00000001"; wait for clk_period*2;
 	  ESCR_P <= '0'; Operando1 <= "00000101"; wait for clk_period*2;
+      ESCR_P <= '1'; Operando1 <= "00010110"; wait for clk_period*2;
+	  ESCR_P <= '0'; Operando1 <= "00000101"; wait for clk_period*2;
 
       wait;
    end process;

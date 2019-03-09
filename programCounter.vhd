@@ -13,7 +13,7 @@ end programCounter;
 architecture Behavioral of programCounter is
 
 begin
-	process (clk, ESCR_PC, Constante, Reset)
+	process (clk)
 	variable enderecoActual : STD_LOGIC_VECTOR (7 downto 0);
 	
 	begin

@@ -97,6 +97,7 @@ BEGIN
       Endereco <= "00010100"; wait for 10ns;
       Endereco <= "00010101"; wait for 10ns;
       Endereco <= "00010110"; wait for 10ns;
+      Endereco <= "00010111"; wait for 10ns;
 
       wait;
    end process;
