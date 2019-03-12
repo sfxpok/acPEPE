@@ -77,6 +77,12 @@ BEGIN
    begin		
 		
 		Operando1 <= "00000001"; Operando2 <= "00000001"; SEL_ALU <= "0000"; wait for 100ns;
+		Operando1 <= "00000001"; Operando2 <= "00000001"; SEL_ALU <= "0001"; wait for 100ns;
+		Operando1 <= "00000001"; Operando2 <= "00000001"; SEL_ALU <= "0010"; wait for 100ns;
+		Operando1 <= "00000001"; Operando2 <= "00000001"; SEL_ALU <= "0011"; wait for 100ns;
+		Operando1 <= "00000001"; Operando2 <= "00000001"; SEL_ALU <= "0100"; wait for 100ns;
+		Operando1 <= "00000001"; Operando2 <= "00000001"; SEL_ALU <= "0101"; wait for 100ns;
+		Operando1 <= "00000001"; Operando2 <= "00000001"; SEL_ALU <= "0111"; wait for 100ns;
 		Operando1 <= "00000001"; Operando2 <= "00000001"; SEL_ALU <= "1000"; wait for 100ns;
 
       wait;

@@ -35,7 +35,7 @@ begin
             when "00001111" => opcode <= "10011"; Registo_1 <= "XXX"; Registo_2 <= "XXX"; Constante <= "00001011"; -- JMP 11; 16
             when "00010000" => opcode <= "00011"; Registo_1 <= "100"; Registo_2 <= "XXX"; Constante <= "00000010"; -- LD R4, [2]; 17
             when "00010001" => opcode <= "00101"; Registo_1 <= "100"; Registo_2 <= "000"; Constante <= "XXXXXXXX"; -- ADD R4, R0; 18
-            when "00010010" => opcode <= "00010"; Registo_1 <= "000"; Registo_2 <= "XXX"; Constante <= "10000001"; -- LD R0, -1; 19
+            when "00010010" => opcode <= "00010"; Registo_1 <= "000"; Registo_2 <= "XXX"; Constante <= "11111111"; -- LD R0, -1; 19
             when "00010011" => opcode <= "01000"; Registo_1 <= "100"; Registo_2 <= "000"; Constante <= "XXXXXXXX"; -- NAND R4, R0; 20
             when "00010100" => opcode <= "00101"; Registo_1 <= "100"; Registo_2 <= "010"; Constante <= "XXXXXXXX"; -- ADD R4, R2; 21
             when "00010101" => opcode <= "00001"; Registo_1 <= "100"; Registo_2 <= "XXX"; Constante <= "XXXXXXXX"; -- STP R4; 22

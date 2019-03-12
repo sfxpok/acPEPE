@@ -1,2 +1,6 @@
 *.exe
+*.wdb
+*.prj
 isim/
+planAhead*/
+*.debug

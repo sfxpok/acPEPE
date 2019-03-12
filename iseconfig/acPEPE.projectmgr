@@ -9,13 +9,13 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>G1 - gateNOT - Behavioral (/home/r/git/acPEPE/gateNOT.vhd)</SelectedItem>
+         <SelectedItem>motherBoard.ucf (/home/r/git/acPEPE/motherBoard.ucf)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000213000000020000000000000000000000000200000064ffffffff000000810000000300000002000002130000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>G1 - gateNOT - Behavioral (/home/r/git/acPEPE/gateNOT.vhd)</CurrentItem>
+      <CurrentItem>motherBoard.ucf (/home/r/git/acPEPE/motherBoard.ucf)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -23,13 +23,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010f0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -38,7 +38,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000390000000040101000100000000000000000000000064ffffffff000000810000000000000004000000510000000100000000000000290000000100000000000000840000000100000000000002920000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000610000000040101000100000000000000000000000064ffffffff000000810000000000000004000000510000000100000000000000290000000100000000000000840000000100000000000005120000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>ALU.vhd</CurrentItem>
    </ItemView>
@@ -59,7 +59,6 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
          <ClosedNode>Configure Target Device</ClosedNode>
          <ClosedNode>Implement Design</ClosedNode>
-         <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem></SelectedItem>
@@ -75,14 +74,12 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/motherBoard - Struct |home|r|git|acPEPE|motherBoard.vhd</ClosedNode>
          <ClosedNode>/tb_ALU - behavior |home|r|git|acPEPE|tb_ALU.vhd</ClosedNode>
-         <ClosedNode>/tb_CPU - behavior |home|r|git|acPEPE|tb_CPU.vhd</ClosedNode>
          <ClosedNode>/tb_RAM - behavior |home|r|git|acPEPE|tb_RAM.vhd</ClosedNode>
          <ClosedNode>/tb_comparisonMUX - behavior |home|r|git|acPEPE|tb_comparisonMUX.vhd</ClosedNode>
          <ClosedNode>/tb_comparisonRegister - behavior |home|r|git|acPEPE|tb_comparisonRegister.vhd</ClosedNode>
          <ClosedNode>/tb_decodeROM - behavior |home|r|git|acPEPE|tb_decodeROM.vhd</ClosedNode>
          <ClosedNode>/tb_inputPeripheral - behavior |home|r|git|acPEPE|tb_inputPeripheral.vhd</ClosedNode>
          <ClosedNode>/tb_instructionMemory - behavior |home|r|git|acPEPE|tb_instructionMemory.vhd</ClosedNode>
-         <ClosedNode>/tb_motherBoard - behavior |home|r|git|acPEPE|tb_motherBoard.vhd</ClosedNode>
          <ClosedNode>/tb_motherBoard - behavior |home|r|git|acPEPE|tb_motherBoard.vhd/uut - motherBoard - Struct/A1 - CPU - Struct</ClosedNode>
          <ClosedNode>/tb_muxProgramCounter - behavior |home|r|git|acPEPE|tb_muxProgramCounter.vhd</ClosedNode>
          <ClosedNode>/tb_muxRegisterBank - behavior |home|r|git|acPEPE|tb_muxRegisterBank.vhd</ClosedNode>
@@ -93,9 +90,9 @@
       <SelectedItems>
          <SelectedItem>tb_motherBoard - behavior (/home/r/git/acPEPE/tb_motherBoard.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >17</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001e9000000020000000000000000000000000200000064ffffffff000000810000000300000002000001e90000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000213000000020000000000000000000000000200000064ffffffff000000810000000300000002000002130000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>tb_motherBoard - behavior (/home/r/git/acPEPE/tb_motherBoard.vhd)</CurrentItem>
    </ItemView>
@@ -127,5 +124,19 @@
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000014c0000011d01000000060100000002</SourceProcessView>
-   <CurrentView>Implementation</CurrentView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
 </Project>

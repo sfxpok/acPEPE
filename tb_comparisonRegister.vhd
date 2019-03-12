@@ -85,7 +85,7 @@ BEGIN
    begin		
 
 		COMP_FLAG <= "00011"; ESCR_F <= '1'; wait for clk_period*2;
-		COMP_FLAG <= "00010"; ESCR_F <= '0'; wait for clk_period*2;
+		COMP_FLAG <= "00010"; ESCR_F <= '1'; wait for clk_period*2;
 
       wait;
    end process;

@@ -6,3 +6,4 @@ xst -intstyle ise -ifn "/home/r/git/acPEPE/motherBoard.xst" -ofn "/home/r/git/ac
 xst -intstyle ise -ifn "/home/r/git/acPEPE/motherBoard.xst" -ofn "/home/r/git/acPEPE/motherBoard.syr" 
 xst -intstyle ise -ifn "/home/r/git/acPEPE/motherBoard.xst" -ofn "/home/r/git/acPEPE/motherBoard.syr" 
 xst -intstyle ise -ifn "/home/r/git/acPEPE/motherBoard.xst" -ofn "/home/r/git/acPEPE/motherBoard.syr" 
+xst -intstyle ise -ifn "/home/r/git/acPEPE/motherBoard.xst" -ofn "/home/r/git/acPEPE/motherBoard.syr" 

@@ -1,0 +1,21 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "PIN[7]" LOC = T5;
+NET "PIN[6]" LOC = V8;
+NET "PIN[5]" LOC = U8;
+NET "PIN[4]" LOC = N8;
+NET "PIN[3]" LOC = M8;
+NET "PIN[1]" LOC = T9;
+NET "PIN[0]" LOC = T10;
+NET "PIN[2]" LOC = V9;
+NET "POUT[6]" LOC = R11;
+NET "POUT[5]" LOC = N11;
+NET "POUT[4]" LOC = M11;
+NET "POUT[3]" LOC = V15;
+NET "POUT[2]" LOC = U15;
+NET "POUT[1]" LOC = V16;
+NET "Reset" LOC = B8;
+NET "clk" LOC = V10;
+NET "POUT[0]" LOC = U16;
+NET "POUT[7]" LOC = T11;

@@ -84,8 +84,8 @@ BEGIN
    stim_proc: process
    begin		
 		
-		Reset <= '1'; wait for clk_period*5;
-		PIN <= "00001010"; Reset <= '0'; wait for clk_period*5;
+		PIN <= "00000001"; Reset <= '1'; wait for clk_period*5;
+		PIN <= "00000001"; Reset <= '0'; wait for clk_period*5;
 		
 		--PIN <= "01000001"; Reset <= '1'; wait for clk_period*2;
 		--PIN <= "00011101"; Reset <= '0'; wait for clk_period*2;

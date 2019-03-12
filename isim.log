@@ -131,3 +131,4 @@ at 470 ns(1), Instance /tb_motherboard/uut/B1/ : Warning: NUMERIC_STD.TO_INTEGER
 at 475 ns(1), Instance /tb_motherboard/uut/B1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 480 ns(1), Instance /tb_motherboard/uut/B1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 485 ns(1), Instance /tb_motherboard/uut/B1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# exit 0
